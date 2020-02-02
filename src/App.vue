@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VueClock/>
+    <AddValue v-on:add-value="addValue" />
+    <Table/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueClock from './components/VueClock.vue';
+import Table from './components/Table.vue';
+import AddValue from './components/addValue.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    VueClock,
+    Table,
+    AddValue
   }
 }
 </script>

@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.10",
+    "vue-table-dynamic": "0.0.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
