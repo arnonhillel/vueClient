@@ -96,6 +96,7 @@ $angle: 30deg;
     text-align: center;
     font-size: 14px;
     margin: 45px;
+    margin-bottom: 3px;
     .hour {
         position: absolute;
         top: 0px;

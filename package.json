@@ -8,11 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.4.4",
+    "js-cookie": "^2.2.1",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.10",
-    "vue-table-dynamic": "0.0.9"
+    "vue-moment": "^4.1.0",
+    "vue-table-dynamic": "0.0.9",
+    "vuex": "^3.1.2",
+    "vuex-persistedstate": "^2.7.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -32,7 +37,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

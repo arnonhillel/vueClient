@@ -2,6 +2,7 @@
   <div class="base-demo" style="width: 400px">
     <vue-table-dynamic :params="params"></vue-table-dynamic>
   </div>
+  
 </template>
 
 <script>
@@ -13,8 +14,10 @@ export default {
     return {
       params: {
         data: [
-          ["full name", "role", "workplace"],
+          ["name", "role", "workplace"],
           ["", "", ""],
+          ["", "", ""],["", "", ""],
+          ["", "", ""],["", "", ""],
           ["", "", ""]
         ],
         header: "row",
