@@ -67,9 +67,8 @@ export default {
           .then(
             response => (
               (this.users = response.data),
-              localStorage.setItem("data", JSON.stringify(response.data), this.$forceUpdate())
+              localStorage.setItem("data", JSON.stringify(response.data), location.reload())
             )
-            
           )
           .catch(err => console.log(err));
       }, timeout);
